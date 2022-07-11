@@ -9,8 +9,11 @@ if __name__=='__main__':
     
     m.CreateMaze(loadMaze= 'maze--2022-07-10--15-30-52.csv',x=12,y=18)
 
+    #inicio do busca
+    X = 5
+    Y = 2
 
-
+    #
     c = 'h'
     H={}
     i = 0
@@ -18,12 +21,8 @@ if __name__=='__main__':
     for i in range(1,104):
         H[i] = c + str(i)
         
-    
-    
-    #H[1]=agent(m,4,4,color=COLOR.red)
 
-  
-   
+   # Controle do total de obstaculos
     i = 1
    #Inserindo os obstaculos no labirinto
     for l in range(2,20,2):
@@ -46,7 +45,7 @@ if __name__=='__main__':
             H[i].cost=10
             i += 1
 
-   
+   # Informa para o algoritmo o labrinto e os obstaculos e o ponto inicial
     path ,c=dijkstra(m, H[1],H[2],H[3],H[4],H[5],H[6],H[7],H[8],H[9],H[10],
                         H[11],H[12],H[13],H[14],H[15],H[16],H[17],H[18],
                         H[19],H[20],H[21],H[22],H[23],H[24],H[25],H[26],
@@ -59,11 +58,12 @@ if __name__=='__main__':
                         H[75],H[76],H[77],H[78],H[79],H[80],H[81],H[82],
                         H[83],H[84],H[85],H[86],H[87],H[88],H[89],H[90],
                         H[91],H[92],H[93],H[94],H[95],H[96],H[97],H[98],
-                        H[99],H[100],H[101],H[102],H[103], start=(8,2))
+                        H[99],H[100],H[101],H[102],H[103], start=(X,Y))
 
     textLabel(m,'Custo Total do Percurso',c)
 
-    a=agent(m,8,2,color=COLOR.cyan,filled=True,footprints=True)
+
+    a=agent(m,X,Y,color=COLOR.cyan,filled=True,footprints=True)
     m.tracePath({a:path})
 
     m.run()
