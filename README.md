@@ -6,25 +6,59 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  Elias Yousef |
+| 19/0027088 |  Eliás Yousef Santana Ali |
 | 20/0038141  | Gustavo Duarte Moreira |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto consiste em um labirinto customizado para simular uma sala de aula com 4 colunas de 4 posições por coluna e 20 filas onde foi apontado um local vazio onde a pessoa deve sentar, para verificar qual o menor caminho a ser percorrido para alcançar o objetivo utilizando o algoritmo de Dijkstra. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+Aplicação do algoritmo de menor caminho.
+
+![Busca 1 com Dijkstra](img/dijkstra1.gif)
+
+Aplicação do algoritmo de menor caminho.
+
+![Busca 2 com Dijkstra](img/dijkstra2.gif)
+
+Aplicação do algoritmo de menor caminho.
+
+![Busca 3 com Dijkstra](img/dijkstra3.gif)
 
 ## Instalação 
-**Linguagem**: JavaScript<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: python<br>
+**Framework**: N/A<br>
+
+***Pre-requsitos***
+
+Possuir o python3 instalado na máquina.
+
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+**Clonar o repositório**
+```
+    git clone https://github.com/projeto-de-algoritmos/Grafos2_ClassRoomMazeShortPath.git
+```
+**Entar o repositório**
+```
+    cd Grafos1_ClassRoomMaze/src
+```
+**Executar o comando**
+```
+    python3  bfsXdfs.py
+```
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Observação: Os testes foram realizados em um computador com o sitema operacional UBUNTU 20.04.
+
+Os códigos foram adaptados a partir do canal no yotube Learning Orbis.
+
+
+## Video
+
+[Video da apresentação](video/ClassRoomMaze.mp4)
+
 
 
 
