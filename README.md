@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Grafos2_ClassRoomMazeShortPath
 
 **Número da Lista**: N/A<br>
 **Conteúdo da Disciplina**: Grafos2<br>
