@@ -43,11 +43,11 @@ Possuir o python3 instalado na máquina.
 ```
 **Entar o repositório**
 ```
-    cd Grafos1_ClassRoomMaze/src
+    cd Grafos2_ClassRoomMazeShortPath/src
 ```
 **Executar o comando**
 ```
-    python3  bfsXdfs.py
+    python3  main.py
 ```
 ## Outros 
 Observação: Os testes foram realizados em um computador com o sitema operacional UBUNTU 20.04.
